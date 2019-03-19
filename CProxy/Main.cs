@@ -17,6 +17,7 @@ namespace CProxy
         private const string SUBKEY = "Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings";
         public Main()
         {
+            //Ao abrir o app ja altera automaticamente
             InitializeComponent();
             GetStatusProxy();
             Application.Run();
